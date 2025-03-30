@@ -51,7 +51,7 @@ st.set_page_config(
 st.title("SQL Assistant")
 st.markdown("##### :orange_heart")
 
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns([2, 1.5])
 
 with col1:
     with st.expander(":rainbow[:point_down: Example Questions]"):
